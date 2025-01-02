@@ -1,0 +1,9 @@
+Name of the Interpreter: CPython, Fibonacci(25): 75025, Time Taken: 0.0156 seconds
+Name of the Interpreter: CPython, Fibonacci(30): 832040, Time Taken: 0.1623 seconds
+Name of the Interpreter: CPython, Fibonacci(35): 9227465, Time Taken: 1.7340 seconds
+Name of the Interpreter: PyPy, Fibonacci(25): 75025, Time Taken: 0.0180 seconds
+Name of the Interpreter: PyPy, Fibonacci(30): 832040, Time Taken: 0.0259 seconds
+Name of the Interpreter: PyPy, Fibonacci(35): 9227465, Time Taken: 0.0932 seconds
+Name of the Interpreter: Jython, Fibonacci(25): 75025, Time Taken: 0.0880 seconds
+Name of the Interpreter: Jython, Fibonacci(30): 832040, Time Taken: 0.2880 seconds
+Name of the Interpreter: Jython, Fibonacci(35): 9227465, Time Taken: 1.6770 seconds
