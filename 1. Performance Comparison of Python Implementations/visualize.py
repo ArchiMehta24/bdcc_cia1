@@ -30,7 +30,7 @@ def parse_data(filename):
 filename = "benchmark_results.txt"
 data, fibonacci_values = parse_data(filename)
 
-# Plot the data
+# Visualize the data 
 for interpreter, values in data.items():
     n_values, times = zip(*values)
     plt.plot(n_values, times, marker="o", label=interpreter)

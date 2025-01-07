@@ -21,7 +21,7 @@ def save_results_to_file(result, filename="benchmark_results.txt"):
         # Include `n` in the saved results
         f.write(f"Name of the Interpreter: {implementation}, Fibonacci({n}): {output}, Time Taken: {elapsed_time:.4f} seconds\n")
         
-        # Updated code for compatibility with Jython:
+        # Code for compatibility with Jython:
         # f.write("Name of the Interpreter: {}, Fibonacci({}): {}, Time Taken: {:.4f} seconds\n".format(implementation, n, output, elapsed_time))
     
     # print statement(incompatible with Jython):
@@ -32,10 +32,10 @@ def save_results_to_file(result, filename="benchmark_results.txt"):
 
 if __name__ == "__main__":
     # Adjust the Fibonacci input
-    n = 35  # You can modify this for a different Fibonacci number
+    n = 25  # You can modify this for a different Fibonacci number
 
     # Define the interpreter name
-    interpreter_name = "PyPy"  # Change this to "Jython" or "PyPy" when running in those environments
+    interpreter_name = "CPython"  # Change this to "Jython" or "PyPy" when running in those environments
 
     # Run benchmark
     result = benchmark_fibonacci(n, interpreter_name)
